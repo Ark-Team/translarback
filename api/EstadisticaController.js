@@ -1,4 +1,4 @@
-const responseService = require("../service/EstadisticaService");
+const responseService = require("../logic/EstadisticaService");
 
 exports.selectAllStatisticsById = (req, res, next) => {
     const data = req.params.id;

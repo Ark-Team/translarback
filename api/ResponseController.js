@@ -1,6 +1,6 @@
-const searchQuestion = require('../service/SearchQuestion')
-const contador = require('../service/Contador')
-const traductor = require('../service/TraductorService')
+const searchQuestion = require('../logic/SearchQuestion')
+const contador = require('../logic/Contador')
+const traductor = require('../logic/TraductorService')
 
 async function findResponse(req, res, next) {
     const params = req.query.pregunta;

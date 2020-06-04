@@ -1,6 +1,6 @@
 const express = require('express')
-const responseController = require("../TraslateService/controller/ResponseController")
-const estadisticaController = require("./controller/EstadisticaController")
+const responseController = require("../TraslateService/api/ResponseController")
+const estadisticaController = require("./api/EstadisticaController")
 const app = express();
 
 app.use((req, res, next) => {
